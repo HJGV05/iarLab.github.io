@@ -150,6 +150,20 @@ html, body {
     border-radius: 50%;
 }
 
+.about-band-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.about-EVS {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+
 .main-footer {
     background-color: rgb(18, 34, 39);
     color: white;
@@ -181,6 +195,13 @@ html, body {
     padding: .67em .67em;
     cursor: pointer;
 }
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
 
 .btn-header {
     margin: .5em 15% 2em 15%;
@@ -239,7 +260,7 @@ html, body {
 
 .class-text {
     color: #555;
-    width: 18%;
+    width: 19%;
     font-weight: bold;
 }
 .class-textevent {
@@ -283,15 +304,43 @@ html, body {
     font-weight: bold;
 }
 
+.class-status {
+    color: #555;
+    width: 17%;
+    font-weight: bold;
+}
+
+.class-year {
+    color: #555;
+    width: 14%;
+    font-weight: bold;
+}
+
+.class-program {
+    text-align: center;
+    width: 18%;
+}
+
+.class-titletss {
+    text-align: center;
+    width: 20%;
+}
+
 .class-hour {
     width: 15%;
 }
 
 .class-course {
+    text-align: center;
     width: 20%;
 }
 .class-classroom {
-    width: 17%;
+    text-align: center;
+    width: 24%;
+}
+.class-author {
+    text-align: center;
+    width: 23%;
 }
 
 .class-btn {

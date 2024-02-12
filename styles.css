@@ -1,0 +1,436 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400,700');
+@import url('https://fonts.googleapis.com/css?family=Assistant&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Patua+One&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Alatsi&display=swap');
+
+
+* {
+    box-sizing: border-box;
+    font-family: Raleway;
+    color: #777;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    min-height: 100%;
+}
+
+.main-nav {
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: lighter;
+    border-bottom: 1px solid rgba(255, 255, 255, .3)
+}
+
+.main-nav ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+.main-nav ul li{
+    float: left;
+    width: 185px;
+    height: 40px;
+    background-color: rgb(26, 24, 24);
+    opacity: 0.8;
+    line-height: 40px;
+    text-align: center;
+    font-size: 15px;
+}
+
+.main-nav ul li a{
+    text-decoration: none;
+    color: white;
+    display: block;
+}
+
+.main-nav ul li a:hover{
+    background-color: rgba(27, 27, 95, 0.726);
+}
+
+.main-nav ul li ul li {
+    display: none;
+}
+.main-nav ul li:hover ul li {
+    display: block;
+}
+
+.nav ul {
+    margin: 0;
+}
+
+.nav li {
+    display: inline;
+}
+
+.nav a {
+    display: inline-block;  
+}
+
+
+.nav a:hover {
+    background-color: rgba(255, 255, 255, .3)
+}
+
+.main-header {
+    background-color: rgba(0, 0, 0, .6);
+    background-image: url("Images/Header Background.jpg");
+    background-blend-mode: multiply;
+    background-size: cover;
+    padding-bottom: 30px;
+}
+
+.larmi-name {
+    text-align: center;
+    margin: 0;
+    font-size: 4em;
+    font-family: 'Patua One', cursive;
+    font-weight: normal;
+    color: white;
+}
+
+.larmi-name-large {
+    font-size: 8em;
+}
+
+.larmi-meaning {
+    text-align: center;
+    margin: 0;
+    font-size: 1em;
+    font-family: 'Patua One', cursive;
+    font-weight: normal;
+    color: white;
+}
+
+.larmi-meaning-large {
+    font-size: 3em;
+}
+
+.content-section {
+    text-align: justify;
+    margin: 1em;
+}
+
+.news {
+    border-top:1px solid #ebebeb;
+    padding:15px 0;
+  }
+  .news > .date {
+    font-size:14px;
+    font-weight:300;
+  
+  }
+  .news > p{
+    color: #222;
+      text-align: justify;
+  
+  }
+
+ 
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 1.5em;
+}
+.section-header {
+    font-family: 'Assistant', sans-serif;
+    font-weight: normal;
+    color: #333;
+    text-align: center;
+    font-size: 2.5em;
+}
+
+.about-larmi-image {
+    float: left;
+    height: 300px;
+    width: 300px;
+    margin: 15px;
+    border-radius: 50%;
+}
+
+.main-footer {
+    background-color: rgb(18, 34, 39);
+    color: white;
+    padding: .25em 0;
+}
+
+.main-footer-container {
+    display: flex;
+    align-items: center;
+}
+
+.main-footer-container ul {
+    flex-grow: 1;
+    text-align: end;
+}
+
+.footer-nav li {
+    padding: 0 .5em;
+}
+
+.footer-nav img {
+    width: 30px;
+    height: 30px;
+}
+
+.btn {
+    text-align: center;
+    vertical-align: middle;
+    padding: .67em .67em;
+    cursor: pointer;
+}
+
+.btn-header {
+    margin: .5em 15% 2em 15%;
+    color: white;
+    border: 2px solid rgb(51, 120, 160);
+    background-color: rgba(255, 255, 255, .1);
+    border-radius: 0;
+    font-size: 1.5em;
+    font-weight: lighter;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+.btn-header:hover {
+    background-color: rgba(255, 255, 255, .3);
+}
+
+.btn-play {
+    display: block;
+    margin: 0 auto;
+    color: #2D9CDB;
+    font-size: 4em;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    padding: 0;
+    text-align: center;
+}
+
+.btn-primary {
+    color: white;
+    background-color: rgb(93, 143, 160);
+    border: none;
+    border-radius: .3em;
+    font-weight: bold;
+}
+
+.btn-primary:hover {
+    background-color: rgb(23, 73, 102);
+}
+
+.class-row {
+    border-bottom: 1px solid black;
+    padding-bottom: 1em;
+    margin-bottom: 1em;
+}
+
+.class-row:last-child {
+    border: none;
+}
+
+.class-item {
+    display: inline-block;
+    padding-right: .5em;
+}
+
+.class-text {
+    color: #555;
+    width: 18%;
+    font-weight: bold;
+}
+.class-textevent {
+    text-align: center;
+    color: #555;
+    width: 24%;
+    font-weight: bold;
+}
+
+
+.class-date {
+        text-align: center;
+        color: #555;
+        width: 24.5%;
+} 
+
+.class-location {
+    text-align: center;
+    color: #555;
+    width: 24.5%;
+}
+
+.class-speaker {
+    text-align: center;
+    color: #555;
+    width: 24.5%;
+}
+
+.class-host {
+    text-align: center;
+    color: #555;
+    width: 24.5%;
+}
+
+
+
+
+.class-day {
+    color: #555;
+    width: 17%;
+    font-weight: bold;
+}
+
+.class-hour {
+    width: 15%;
+}
+
+.class-course {
+    width: 20%;
+}
+.class-classroom {
+    width: 17%;
+}
+
+.class-btn {
+    max-width: 10%;
+}
+
+.shop-item {
+    margin: 30px;
+}
+
+.shop-item-title {
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.shop-item-image {
+    height: 250px;
+}
+
+.shop-item-details {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+
+.shop-item-price {
+    flex-grow: 1;
+    color: #333;
+}
+
+.shop-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.cart-header {
+    font-weight: bold;
+    font-size: 1.25em;
+    color: #333;
+}
+
+.cart-column {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid black;
+    margin-right: 1.5em;
+    padding-bottom: 10px;
+    margin-top: 10px;
+}
+
+.cart-row {
+    display: flex;
+}
+
+.cart-item {
+    width: 45%;
+}
+
+.cart-price {
+    width: 20%;
+    font-size: 1.2em;
+    color: #333;
+}
+
+.cart-quantity {
+    width: 35%;
+}
+
+.cart-item-title {
+    color: #333;
+    margin-left: .5em;
+    font-size: 1.2em;
+}
+
+.cart-item-image {
+    width: 75px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.btn-danger {
+    color: white;
+    background-color: #EB5757;
+    border: none;
+    border-radius: .3em;
+    font-weight: bold;
+}
+
+.btn-danger:hover {
+    background-color: #CC4C4C;
+}
+
+.cart-quantity-input {
+    height: 34px;
+    width: 50px;
+    border-radius: 5px;
+    border: 1px solid #56CCF2;
+    background-color: #eee;
+    color: #333;
+    padding: 0;
+    text-align: center;
+    font-size: 1.2em;
+    margin-right: 25px;
+}
+
+.cart-row:last-child {
+    border-bottom: 1px solid black;
+}
+
+.cart-row:last-child .cart-column {
+    border: none;
+}
+
+.cart-total {
+    text-align: end;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.cart-total-title {
+    font-weight: bold;
+    font-size: 1.5em;
+    color: black;
+    margin-right: 20px;
+}
+
+.cart-total-price {
+    color: #333;
+    font-size: 1.1em;
+}
+
+.btn-purchase {
+    display: block;
+    margin: 40px auto 80px auto;
+    font-size: 1.75em;
+}
